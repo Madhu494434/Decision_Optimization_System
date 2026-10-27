@@ -1,11 +1,6 @@
 import csv
 from datetime import datetime
 
-
-# ============================================================
-#                 DECISION OPTIMIZATION TOOL
-# ============================================================
-
 WIDTH = 85
 
 
@@ -85,9 +80,6 @@ def get_criterion_type():
         print("Please enter B or C.")
 
 
-# ============================================================
-#                    INPUT COLLECTION
-# ============================================================
 
 def get_options():
     """Collect the alternatives being compared."""
